@@ -1,0 +1,15 @@
+2020-12-27 20:11:28.245+0000: 1359: info : libvirt version: 6.0.0, package: 0ubuntu8.5 (Christian Ehrhardt <christian.ehrhardt@canonical.com> Thu, 08 Oct 2020 07:36:06 +0200)
+2020-12-27 20:11:28.245+0000: 1359: info : hostname: sl-System-Product-Name
+2020-12-27 20:11:28.245+0000: 1359: error : virDirOpenInternal:2839 : cannot open directory '/media/sl/Seagatel/Downloads': Tiedostoa tai hakemistoa ei ole
+2020-12-27 20:11:28.245+0000: 1359: error : storageDriverAutostartCallback:221 : internal error: Failed to autostart storage pool 'Downloads': cannot open directory '/media/sl/Seagatel/Downloads': Tiedostoa tai hakemistoa ei ole
+2020-12-27 20:11:28.245+0000: 1359: error : virDirOpenInternal:2839 : cannot open directory '/media/sl/Seagatel/Käyttöjärjestelmät': Tiedostoa tai hakemistoa ei ole
+2020-12-27 20:11:28.245+0000: 1359: error : storageDriverAutostartCallback:221 : internal error: Failed to autostart storage pool 'Image': cannot open directory '/media/sl/Seagatel/Käyttöjärjestelmät': Tiedostoa tai hakemistoa ei ole
+2020-12-27 20:11:28.262+0000: 1359: debug : virQEMUCapsLoadCache:4093 : Got flags 215
+2020-12-27 20:11:28.288+0000: 1359: debug : virQEMUCapsKVMUsable:4641 : /dev/kvm has changed (1609099888 vs 0)
+2020-12-27 20:11:28.290+0000: 1359: debug : virQEMUCapsCacheLookup:5403 : Returning caps 0x7f48ac064dc0 for /usr/bin/qemu-system-x86_64
+2020-12-27 20:11:28.290+0000: 1359: debug : qemuDomainAssignVirtioSerialAddresses:135 : Finished reserving existing ports
+2020-12-27 20:11:28.290+0000: 1359: debug : qemuDomainUSBAddressAddHubs:3007 : Found 3 USB devices and 15 provided USB ports; adding 0 hubs
+2020-12-27 20:11:28.290+0000: 1359: debug : qemuDomainAssignUSBAddresses:3147 : Existing USB addresses have been reserved
+2020-12-27 20:11:28.290+0000: 1359: debug : qemuDomainAssignUSBAddresses:3155 : Finished assigning USB ports
+2020-12-27 20:11:28.290+0000: 1359: info : qemuDomainSnapshotLoad:404 : Scanning for snapshots for domain win10 in /var/lib/libvirt/qemu/snapshot/win10
+2020-12-27 20:11:28.291+0000: 1359: info : qemuDomainCheckpointLoad:512 : Scanning for checkpoints for domain win10 in /var/lib/libvirt/qemu/checkpoint/win10
